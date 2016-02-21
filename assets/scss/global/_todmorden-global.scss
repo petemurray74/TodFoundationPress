@@ -1,9 +1,39 @@
-#featured-hero {
-color:#eee;
 
+//--------------HEADER--------------//
+@include breakpoint(small) {
 .hero-content {
-	padding:5em;
+	padding:5% 3em;
+	text-shadow: #000 0px 0px 10px;
+	h2{
+		color:#ffffff;
+		font-size:5rem;
+		}
 	}
-
 }
 
+@include breakpoint(medium) {
+	.hero-content {
+		padding:7% 4em;
+		}
+
+}
+	
+#featured-hero{
+    background: $primary-color url('../images/orchestra-hero.jpg') no-repeat center bottom;
+    background-size: cover;
+}
+
+
+
+
+
+//------------TYPOGRAPHY-------------//
+
+h1,h2,h3{
+letter-spacing:-0.03em;
+}
+
+p{
+	font-size: 1.13rem;
+    font-weight: 400;
+}

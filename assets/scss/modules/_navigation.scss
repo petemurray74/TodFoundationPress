@@ -43,15 +43,15 @@
     line-height: 1;
 
     &:hover:not(.button) {
-      background-color: #2a2a2a;
+      background-color: $primary-color-light;
     }
   }
 
   .menu>li:not(.menu-text)>a { padding: 1rem; }
-  .menu li:not(:last-child) { border-right: 1px solid #4e4e4e; }
+  .menu li:not(:last-child) { border-right: 1px solid $primary-color-dark; }
 
   .dropdown.menu .submenu {
-    background-color: #121212;
+    background-color: $primary-color;
     color: #e6e6e6;
     border: 0;
   }
