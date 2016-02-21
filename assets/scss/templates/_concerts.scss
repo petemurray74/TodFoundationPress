@@ -1,0 +1,19 @@
+#page-concerts {
+  @include grid-row();
+  margin-top: 3rem;
+
+  .main-content {
+    @include breakpoint(small) {
+      @include grid-column(12);
+    }
+
+  }
+  
+  .concert {
+  padding:1em;
+  background:$secondary-color;
+  margin:0 1em 1em 0;
+  }
+
+}
+
