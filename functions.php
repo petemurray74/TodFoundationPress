@@ -46,3 +46,6 @@ require_once( 'library/sticky-posts.php' );
 
 /** If your site requires protocol relative url's for theme assets, uncomment the line below */
 // require_once( 'library/protocol-relative-theme-assets.php' );
+
+/** My Customisations */
+require_once( 'library/todmorden-functions.php' );

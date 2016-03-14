@@ -15,7 +15,7 @@ if ( ! function_exists( 'foundationpress_scripts' ) ) :
 	// Enqueue the main Stylesheet.
 	wp_enqueue_style( 'main-stylesheet', get_stylesheet_directory_uri() . '/assets/stylesheets/foundation.css', array(), '2.3.0', 'all' );
 	
-	wp_enqueue_style( 'googlefonts', '//fonts.googleapis.com/css?family=Raleway:400,700|Cabin:400,700' );
+	wp_enqueue_style( 'googlefonts', '//fonts.googleapis.com/css?family=Raleway:400,700' );
 
 	// Deregister the jquery version bundled with WordPress.
 	wp_deregister_script( 'jquery' );

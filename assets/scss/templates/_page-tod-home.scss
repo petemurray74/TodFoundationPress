@@ -1,6 +1,5 @@
 #page-tod-home {
   @include grid-row();
-  margin-top: 3rem;
 
   .main-content {
     @include breakpoint(small) {
@@ -8,8 +7,28 @@
     }
 
   }
-
-  
-  
-  
 }
+    
+.home {
+    .concert-container{
+    font-family:$header-font-family;    
+    background:#ffffff;
+        .concert{
+	       padding: 2em 2em;   
+        }
+	.datetime{
+	font-size:90%
+	}
+	.pieces{
+		p{
+		font-size:120%;
+		}
+        ul{
+        list-style-type: none;
+        margin-left: 0;
+        font-weight:bold;    
+            }
+	}
+    }
+}
+
