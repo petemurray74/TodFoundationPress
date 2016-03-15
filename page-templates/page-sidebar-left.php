@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Tod Full Width
+Template Name: Tod Content Page
 */
 get_header(); ?>
 
