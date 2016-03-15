@@ -8,7 +8,6 @@ get_header(); ?>
  
 <div id="page-tod-home"> 
 <div class="row">
-<div class="medium-8 columns ">
 <?php while ( have_posts() ) : the_post(); ?>
   <article <?php post_class('main-content') ?> id="post-<?php the_ID(); ?>">
       <?php do_action( 'foundationpress_page_before_entry_content' ); ?>
@@ -18,9 +17,8 @@ get_header(); ?>
   </article>
 <?php endwhile;?> 
 <?php do_action( 'foundationpress_after_content' ); ?>
-</div>
-<div class="medium-4 columns ">
-    <div class="concert-container">
+
+    <div class="sidebar">
         <?php
         //get concert info from concerts page
         $other_page = 8;
@@ -44,7 +42,7 @@ get_header(); ?>
         </div>
                 <?php endif; ?>
     </div>
-</div>
+
 </div>
 <div class="row rowspace">  
 <div class="medium-4 columns">

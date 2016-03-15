@@ -1,5 +1,6 @@
 #page-concerts {
   @include grid-row();
+      margin-top: 2rem;
 
   .main-content {
     @include breakpoint(small) {

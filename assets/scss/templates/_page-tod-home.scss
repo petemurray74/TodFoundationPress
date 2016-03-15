@@ -1,34 +1,48 @@
 #page-tod-home {
-  @include grid-row();
-
+    margin-top: 2rem;
   .main-content {
     @include breakpoint(small) {
       @include grid-column(12);
     }
 
+    @include breakpoint(medium) {
+      @include grid-column(8);
+      //@include grid-col-pos(4);
+    }
   }
-}
+
+  .sidebar {
+    @include breakpoint(small) {
+      @include grid-column(12);
+    }
+
+    @include breakpoint(medium) {
+      @include grid-column(4);
+      //@include grid-col-pos(-8);
+      margin-top: 1rem;
+    }
+  }
+	
+	}
+
     
 .home {
-    .concert-container{
-    font-family:$header-font-family;    
-    background:#ffffff;
-        .concert{
-	       padding: 2em 2em;   
-        }
-	.datetime{
-	font-size:90%
-	}
-	.pieces{
-		p{
-		font-size:120%;
+   .concert{
+	background:#ffffff;
+	padding: 2em 2em;   
+		.datetime{
+		font-size:90%
 		}
-        ul{
-        list-style-type: none;
-        margin-left: 0;
-        font-weight:bold;    
+		.pieces{
+			p{
+			font-size:120%;
+			}
+			ul{
+			list-style-type: none;
+			margin-left: 0;
+			font-weight:bold;    
             }
+		}
 	}
-    }
 }
 

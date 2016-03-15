@@ -4,6 +4,7 @@
 node_modules/
 assets/stylesheets/
 assets/components/
+assets/images/
 assets/javascript/vendor/
 assets/javascript/foundation.js
 assets/javascript/custom/demosite.js
