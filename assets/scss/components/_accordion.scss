@@ -1,0 +1,12 @@
+.accordion-title::before {
+    content: '+';
+    position: absolute;
+    right: 1rem;
+    top: 0.7rem;
+    font-size: 2rem;
+    margin-top:0;
+    }
+
+.accordion-title {
+    font-size: 1rem;
+}
