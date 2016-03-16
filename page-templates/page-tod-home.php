@@ -37,7 +37,10 @@ get_header(); ?>
         <div class="concert">
                 <p class="datetime"><?php echo($first_row['date_and_time']); ?></p>
                 <div class="pieces"><?php echo($first_row['pieces']); ?></div>
+            <?php
+            if ($first_row['soloist']) { ?>
                 <p class="soloist">Soloist:<br><?php echo($first_row['soloist']); ?></p>
+            <?php }; ?>
                 <a href="<?php echo($first_row['ticket_link']); ?>" class="button">Buy Tickets</a>  
         </div>
                 <?php endif; ?>
