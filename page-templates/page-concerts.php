@@ -24,8 +24,8 @@ get_header(); ?>
     <?php while( have_rows('concert') ): the_row(); ?>
     <div class="column">      
             <div class="concert" data-equalizer-watch>
-				<?php if( get_sub_field('concert_image') ){ ?> 
 				<h3><strong><?php the_sub_field('date_and_time') ?></strong></h3>
+				<?php if( get_sub_field('concert_image') ){ ?>
 				<img src="<?php the_sub_field('concert_image'); ?>" alt="concert">
 							<?php }; ?>  
 				<?php the_sub_field('pieces'); ?>

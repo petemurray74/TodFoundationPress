@@ -1236,8 +1236,8 @@ h6 {
   color: #124B6D;
   text-rendering: optimizeLegibility;
   margin-top: 0;
-  margin-bottom: 0.5rem;
-  line-height: 1.4; }
+  margin-bottom: 0.8rem;
+  line-height: 1.1; }
   h1 small,
   h2 small,
   h3 small,
@@ -2512,10 +2512,10 @@ table.hover tr:nth-of-type(even):hover {
 .top-bar .menu a {
   height: 45px;
   line-height: 45px;
-  color: #e6e6e6;
+  color: #ffffff;
   padding-top: 0;
   padding-bottom: 0;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 0.9rem;
   line-height: 1; }
   .top-bar .menu a:hover:not(.button) {
@@ -2885,6 +2885,10 @@ table.hover tr:nth-of-type(even):hover {
     list-style-type: none;
     margin-left: 0;
     font-weight: bold; }
+  .home .concert .pieces li {
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    font-size: 1.5rem; }
 
 body {
   background: #ffffff; }
@@ -2894,7 +2898,8 @@ body {
   text-shadow: #000 0px 0px 10px; }
   .hero-content h2 {
     color: #ffffff;
-    font-size: 5rem; }
+    font-size: 5rem;
+    line-height: 1; }
 
 @media screen and (min-width: 40em) {
   .hero-content {
