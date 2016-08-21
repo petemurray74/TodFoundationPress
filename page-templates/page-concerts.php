@@ -16,10 +16,8 @@ get_header(); ?>
       </header>
       <?php do_action( 'foundationpress_page_before_entry_content' ); ?>
     <div class="entry-content">
-	<div class="row small-up-2 medium-up-2 large-up-2" data-equalizer data-equalize-by-row="true"> 
-			<div class="column" data-equalizer-watch> 
-				<?php the_content(); ?>
-			</div>
+	<?php the_content(); ?>
+	<div class="concert-wrapper row small-up-1 medium-up-2 large-up-3" data-equalizer data-equalize-by-row="true"> 
 <?php endwhile;?>
 <?php do_action( 'foundationpress_after_content' ); ?>
 <?php if( have_rows('concert') ): ?>
@@ -27,10 +25,10 @@ get_header(); ?>
     <div class="column">      
             <div class="concert" data-equalizer-watch>
 				<?php if( get_sub_field('concert_image') ){ ?> 
-				<img src="<?php the_sub_field('concert_image'); ?>" alt="concert" >
-							<?php }; ?>  
 				<h3><strong><?php the_sub_field('date_and_time') ?></strong></h3>
-				<p><?php the_sub_field('pieces'); ?></p>
+				<img src="<?php the_sub_field('concert_image'); ?>" alt="concert">
+							<?php }; ?>  
+				<?php the_sub_field('pieces'); ?>
 				<?php if( get_sub_field('soloist') ){ ?> 
 				<h4>Soloist</h4>    
 				<ul class="accordion" data-accordion data-allow-all-closed="true">

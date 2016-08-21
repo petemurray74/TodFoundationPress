@@ -29,6 +29,11 @@ body{
 
 //------------TOP BAR MENU-------------//
 
+.top-bar{
+	a{
+	text-decoration:none;
+	}
+}
 
 
 //------------TYPOGRAPHY-------------//
@@ -39,6 +44,10 @@ letter-spacing:-0.06em;
 
 h2,h3{
 letter-spacing:-0.03em;
+}
+
+a {
+text-decoration:underline;
 }
 
 body{
@@ -59,6 +68,11 @@ article .main-content, aside .sidebar{
 
 .rowspace {
     margin-top:1rem;
+}
+
+
+a.button {
+text-decoration:none;
 }
 
 //------------FOOTER-------------//
