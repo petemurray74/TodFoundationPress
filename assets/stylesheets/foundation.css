@@ -2894,7 +2894,7 @@ body {
   background: #ffffff; }
 
 .hero-content {
-  padding: 5% 3em;
+  padding: 1em 3em;
   text-shadow: #000 0px 0px 10px; }
   .hero-content h2 {
     color: #ffffff;
@@ -2903,7 +2903,7 @@ body {
 
 @media screen and (min-width: 40em) {
   .hero-content {
-    padding: 7% 4em; } }
+    padding: 2em 4em; } }
 
 #featured-hero {
   background: #008C8C url("../images/orchestra-hero.jpg") no-repeat center bottom;
@@ -2935,5 +2935,42 @@ article .main-content ul, aside .sidebar ul {
 
 a.button {
   text-decoration: none; }
+
+.alignleft, .alignright, .aligncenter {
+  display: block; }
+
+blockquote.alignleft,
+.wp-caption.alignleft,
+img.alignleft {
+  margin: 0.4em 1.6em 1.6em 0; }
+
+blockquote.alignright,
+.wp-caption.alignright,
+img.alignright {
+  margin: 0.4em 0 1.6em 1.6em; }
+
+blockquote.aligncenter,
+.wp-caption.aligncenter,
+img.aligncenter {
+  clear: both;
+  margin-top: 0.4em;
+  margin-bottom: 1.6em; }
+
+.wp-caption.alignleft,
+.wp-caption.alignright,
+.wp-caption.aligncenter {
+  margin-bottom: 1.2em; }
+
+@media screen and (min-width: 40em) {
+  .alignleft {
+    display: inline;
+    float: left; }
+  .alignright {
+    display: inline;
+    float: right; }
+  .aligncenter {
+    display: block;
+    margin-right: auto;
+    margin-left: auto; } }
 
 /*# sourceMappingURL=foundation.css.map */
