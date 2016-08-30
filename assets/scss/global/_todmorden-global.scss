@@ -6,7 +6,7 @@ body{
 //--------------HEADER--------------//
 @include breakpoint(small) {
 .hero-content {
-	padding:5% 3em;
+	padding:1em 3em;
 	text-shadow: #000 0px 0px 10px;
 	h2{
 		color:#ffffff;
@@ -18,7 +18,7 @@ body{
 
 @include breakpoint(medium) {
 	.hero-content {
-		padding:7% 4em;
+		padding:2em 4em;
 		}
 
 }
