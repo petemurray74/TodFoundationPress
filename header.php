@@ -33,7 +33,7 @@
 	<?php do_action( 'foundationpress_layout_start' ); ?>
 	<header id="featured-hero" role="banner">
 		<div class="row column text-center hero-content">
-		<img class="hero-logo" src="/wp-content/themes/FoundationPress/assets/images/todmorden-orchestra-logo-white-200.png"><br>
+		<img class="hero-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/todmorden-orchestra-logo-white-200.png"><br>
 		<h2>Todmorden Orchestra</h2>
 		<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris.</p>
 		</div>
