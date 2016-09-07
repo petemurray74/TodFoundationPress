@@ -27,5 +27,17 @@
 		color: $medium-gray;
 		text-decoration: underline;
 		}
+		
+		#mc_embed_signup {
+		width:80%;
+		}
+		
+		.button{
+		background-color:$primary-color-dark;
+		}
+		
+		.button:hover{
+		background-color:$primary-color-light;
+		}
 	}
 }
