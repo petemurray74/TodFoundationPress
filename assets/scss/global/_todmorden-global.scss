@@ -76,5 +76,27 @@ a.button {
 text-decoration:none;
 }
 
+//------------SIDEBAR-------------//
+
+.sidebar 
+{
+	.signupform{
+	background:$secondary-color;
+	padding:1.6rem 1rem;
+	color:$white;
+		h4{
+		color:$white;
+		font-weight:bold;
+		letter-spacing: -0.03em;
+		font-size: 140%;
+		}
+	}
+	article {
+	margin-bottom:1rem;
+	}
+
+}
+
+
 //------------FOOTER-------------//
 

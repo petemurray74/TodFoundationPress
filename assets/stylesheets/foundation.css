@@ -2762,12 +2762,6 @@ table.hover tr:nth-of-type(even):hover {
     #footer-container #footer a {
       color: #cacaca;
       text-decoration: underline; }
-    #footer-container #footer #mc_embed_signup {
-      width: 80%; }
-    #footer-container #footer .button {
-      background-color: #006262; }
-    #footer-container #footer .button:hover {
-      background-color: #05A5A5; }
 
 .sidebar {
   padding-left: 0.625rem;
@@ -3087,6 +3081,13 @@ table.hover tr:nth-of-type(even):hover {
     margin-bottom: 1rem;
     font-size: 1.5rem; }
 
+.home-signupform {
+  background: #124B6D;
+  padding: 2rem;
+  color: #fefefe; }
+  .home-signupform label, .home-signupform h3 {
+    color: #fefefe; }
+
 body {
   background: #ffffff; }
 
@@ -3132,6 +3133,19 @@ article .main-content ul, aside .sidebar ul {
 
 a.button {
   text-decoration: none; }
+
+.sidebar .signupform {
+  background: #124B6D;
+  padding: 1.6rem 1rem;
+  color: #fefefe; }
+  .sidebar .signupform h4 {
+    color: #fefefe;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+    font-size: 140%; }
+
+.sidebar article {
+  margin-bottom: 1rem; }
 
 .alignleft, .alignright, .aligncenter {
   display: block; }
