@@ -2834,7 +2834,8 @@ table.hover tr:nth-of-type(even):hover {
 #page {
   max-width: 75rem;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  margin-top: 3rem; }
   #page::before, #page::after {
     content: ' ';
     display: table; }
@@ -2981,6 +2982,11 @@ table.hover tr:nth-of-type(even):hover {
     @media screen and (min-width: 40em) {
         #single-post .main-content:last-child:not(:first-child) {
           float: right; } }
+  #single-post time {
+    color: #666;
+    font-weight: bold; }
+  #single-post header {
+    margin-bottom: 1.5rem; }
 
 #page-concerts {
   max-width: 75rem;
