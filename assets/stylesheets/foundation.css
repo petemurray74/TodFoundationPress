@@ -3048,8 +3048,8 @@ table.hover tr:nth-of-type(even):hover {
 .home .concert {
   background: rgba(18, 75, 109, 0.05);
   padding: 2em 2em; }
-  .home .concert .datetime {
-    font-size: 90%; }
+  .home .concert h3 {
+    margin-bottom: 2rem; }
   .home .concert .pieces p {
     font-size: 120%; }
   .home .concert .pieces ul {
@@ -3059,7 +3059,7 @@ table.hover tr:nth-of-type(even):hover {
   .home .concert .pieces li {
     line-height: 1.2;
     margin-bottom: 1rem;
-    font-size: 1.5rem; }
+    font-size: 1.4rem; }
 
 .home .formrow {
   background-color: #124B6D; }
@@ -3082,12 +3082,14 @@ body {
   text-shadow: #000 0px 0px 10px; }
   .hero-content h2 {
     color: #ffffff;
-    font-size: 5rem;
+    font-size: 2rem;
     line-height: 1; }
 
 @media screen and (min-width: 40em) {
   .hero-content {
-    padding: 2em 4em; } }
+    padding: 2em 4em; }
+    .hero-content h2 {
+      font-size: 5rem; } }
 
 #featured-hero {
   background: #008C8C url("../images/orchestra-hero.jpg") no-repeat center bottom;

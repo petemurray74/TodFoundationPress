@@ -10,7 +10,7 @@ body{
 	text-shadow: #000 0px 0px 10px;
 	h2{
 		color:#ffffff;
-		font-size:5rem;
+		font-size:2rem;
 		line-height:1;
 		}
 	}
@@ -19,7 +19,11 @@ body{
 @include breakpoint(medium) {
 	.hero-content {
 		padding:2em 4em;
+		h2{
+		font-size:5rem;
 		}
+	}
+	
 
 }
 	

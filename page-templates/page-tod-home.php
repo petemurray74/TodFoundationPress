@@ -35,7 +35,7 @@ get_header(); ?>
         }
         ?>
         <div class="concert">
-                <p class="datetime"><?php echo($first_row['date_and_time']); ?></p>
+                <h3><?php echo($first_row['date_and_time']); ?></h3>
                 <div class="pieces"><?php echo($first_row['pieces']); ?></div>
             <?php
             if ($first_row['soloist']) { ?>

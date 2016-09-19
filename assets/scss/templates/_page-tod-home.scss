@@ -50,8 +50,8 @@
    .concert{
 	background:rgba(18, 75, 109, 0.05);
 	padding: 2em 2em;   
-		.datetime{
-		font-size:90%
+		h3{
+			margin-bottom:2rem;
 		}
 		.pieces{
 			p{
@@ -65,7 +65,7 @@
 			li {
 			line-height: 1.2;
 			margin-bottom: 1rem;
-			font-size: 1.5rem;
+			font-size: 1.4rem;
 			}
 		}
 	}
