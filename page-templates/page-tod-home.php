@@ -49,13 +49,27 @@ get_header(); ?>
 </div>
 <div class="row rowspace">  
 <div class="medium-4 columns">
+<h3>News</h3>
+<ul>
+<?php
+//SHOW RECENT NEWS
+	$args = array( 
+	'numberposts' => '3',
+	'category' => 'news',
+	);
+	$recent_posts = wp_get_recent_posts( $args );
+	foreach( $recent_posts as $recent ){
+		echo '<li><a href="' . get_permalink($recent["ID"]) . '">' .   $recent["post_title"].'</a> </li> ';
+	}
+	wp_reset_query();
+?>
+</ul> 
+</div>
+<div class="medium-4 columns">
 <?php the_field('box1'); ?>   
 </div>
 <div class="medium-4 columns">
 <?php the_field('box2'); ?>   
-</div>
-<div class="medium-4 columns">
-<?php the_field('box3'); ?>   
 </div>
 </div>
 
