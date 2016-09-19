@@ -34,6 +34,12 @@
 	
 	input.button{
 	margin-top:1.6rem;
+	background-color:#dddddd;
+	color:$secondary-color;
+	}
+	
+	input.button:hover{
+	background-color:#ffffff;
 	}
   }
 	

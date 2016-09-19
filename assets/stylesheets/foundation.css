@@ -3096,7 +3096,11 @@ table.hover tr:nth-of-type(even):hover {
       #page-tod-home .mc-field-group:last-child:not(:first-child) {
         float: right; } }
   #page-tod-home .mc-field-group input.button {
-    margin-top: 1.6rem; }
+    margin-top: 1.6rem;
+    background-color: #dddddd;
+    color: #124B6D; }
+  #page-tod-home .mc-field-group input.button:hover {
+    background-color: #ffffff; }
 
 .home .concert {
   background: rgba(18, 75, 109, 0.05);
@@ -3164,7 +3168,8 @@ article .main-content ul, aside .sidebar ul {
     margin-bottom: 1rem; }
 
 .rowspace {
-  margin-top: 1rem; }
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
 
 a.button {
   text-decoration: none; }
