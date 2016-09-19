@@ -3098,6 +3098,9 @@ body {
 .top-bar a {
   text-decoration: none; }
 
+.top-bar-socials {
+  padding: 0.4rem 0 0 1rem; }
+
 h1 {
   letter-spacing: -0.06em; }
 

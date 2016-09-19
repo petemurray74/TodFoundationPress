@@ -58,6 +58,12 @@
 			</div>
 		</div>
 		<nav id="site-navigation" class="main-navigation top-bar" role="navigation">
+			<div class="top-bar-left">
+				<div class="top-bar-socials">
+				<a href="https://www.facebook.com/todmordenorchestra"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/facebook2.png" width="30"/></a>
+				<a href="https://twitter.com/TodOrchestra"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/twitter2.png" width="30"/></a>
+				</div>
+			</div>
 			<div class="top-bar-right">
 				<?php foundationpress_top_bar_r(); ?>
 
