@@ -22,8 +22,22 @@
       margin-top: 1rem;
     }
   }
+  
+   .mc-field-group {
+    @include breakpoint(medium) {
+      @include grid-column(12);
+    }
+
+    @include breakpoint(large) {
+      @include grid-column(3);
+    }
 	
+	input.button{
+	margin-top:1.6rem;
 	}
+  }
+	
+}
 
     
 .home {
@@ -50,12 +64,15 @@
 		}
 	}
 	
+	.formrow {
+	background-color:$secondary-color;
+	}
+	
 }
 
 .home-signupform {
-	background:$secondary-color;
-	padding:2rem;
 	color:$white;
+	padding: 3rem 0;
 label,h3{
 	color:$white;
 	}

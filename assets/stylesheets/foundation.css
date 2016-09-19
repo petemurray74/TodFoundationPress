@@ -2736,14 +2736,13 @@ table.hover tr:nth-of-type(even):hover {
   max-width: 100%;
   width: 100%;
   margin: 0 auto;
-  margin-top: 3.75rem;
   background-color: #008C8C;
   border-top: 5px solid #124B6D; }
   #footer-container #footer {
     max-width: 75rem;
     margin-left: auto;
     margin-right: auto;
-    padding: 1.875rem 0;
+    padding: 3rem 0;
     font-size: 1rem;
     color: #ededed; }
     #footer-container #footer::before, #footer-container #footer::after {
@@ -3070,6 +3069,34 @@ table.hover tr:nth-of-type(even):hover {
     @media screen and (min-width: 40em) {
         #page-tod-home .sidebar:last-child:not(:first-child) {
           float: right; } }
+  @media screen and (min-width: 40em) {
+    #page-tod-home .mc-field-group {
+      padding-left: 0.625rem;
+      padding-right: 0.625rem;
+      width: 100%;
+      float: left; } }
+  @media screen and (min-width: 40em) and (min-width: 40em) {
+    #page-tod-home .mc-field-group {
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem; } }
+  @media screen and (min-width: 40em) {
+      #page-tod-home .mc-field-group:last-child:not(:first-child) {
+        float: right; } }
+  @media screen and (min-width: 64em) {
+    #page-tod-home .mc-field-group {
+      padding-left: 0.625rem;
+      padding-right: 0.625rem;
+      width: 25%;
+      float: left; } }
+  @media screen and (min-width: 64em) and (min-width: 40em) {
+    #page-tod-home .mc-field-group {
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem; } }
+  @media screen and (min-width: 64em) {
+      #page-tod-home .mc-field-group:last-child:not(:first-child) {
+        float: right; } }
+  #page-tod-home .mc-field-group input.button {
+    margin-top: 1.6rem; }
 
 .home .concert {
   background: rgba(18, 75, 109, 0.05);
@@ -3087,10 +3114,12 @@ table.hover tr:nth-of-type(even):hover {
     margin-bottom: 1rem;
     font-size: 1.5rem; }
 
+.home .formrow {
+  background-color: #124B6D; }
+
 .home-signupform {
-  background: #124B6D;
-  padding: 2rem;
-  color: #fefefe; }
+  color: #fefefe;
+  padding: 3rem 0; }
   .home-signupform label, .home-signupform h3 {
     color: #fefefe; }
 
