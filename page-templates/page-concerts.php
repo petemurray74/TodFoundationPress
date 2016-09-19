@@ -31,14 +31,8 @@ get_header(); ?>
 				<?php the_sub_field('pieces'); ?>
 				<?php if( get_sub_field('soloist') ){ ?> 
 				<h4>Soloist</h4>    
-				<ul class="accordion" data-accordion data-allow-all-closed="true">
-					<li class="accordion-item" data-accordion-item>
-					<a class="accordion-title"><?php the_sub_field('soloist'); ?></a>
-					<div class="accordion-content" data-tab-content>
-						<?php echo the_sub_field('soloist_biog'); ?> 
-					</div>
-					</li>
-				</ul>
+				<?php the_sub_field('soloist'); ?>
+				<?php the_sub_field('soloist_biog'); ?> 
 				<?php }; ?>    
 				<p>Tickets: <?php the_sub_field('ticket_price'); ?></p>
 				<a href="<?php the_sub_field('ticket_link'); ?>" class="button">Buy Tickets</a>
