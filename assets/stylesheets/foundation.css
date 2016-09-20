@@ -468,8 +468,8 @@ button {
     margin-right: -0.625rem; }
     @media screen and (min-width: 40em) {
       .row .row {
-        margin-left: -0.9375rem;
-        margin-right: -0.9375rem; } }
+        margin-left: -1.875rem;
+        margin-right: -1.875rem; } }
     .row .row.collapse {
       margin-left: 0;
       margin-right: 0; }
@@ -486,8 +486,8 @@ button {
   float: left; }
   @media screen and (min-width: 40em) {
     .column, .columns {
-      padding-left: 0.9375rem;
-      padding-right: 0.9375rem; } }
+      padding-left: 1.875rem;
+      padding-right: 1.875rem; } }
   .column:last-child:not(:first-child), .columns:last-child:not(:first-child) {
     float: right; }
   .column.end:last-child:last-child, .end.columns:last-child:last-child {
@@ -960,8 +960,8 @@ button {
     margin-left: 0;
     margin-right: 0; }
   .medium-uncollapse > .column, .medium-uncollapse > .columns {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem; }
+    padding-left: 1.875rem;
+    padding-right: 1.875rem; }
   .medium-centered {
     float: none;
     margin-left: auto;
@@ -1168,8 +1168,8 @@ button {
     margin-left: 0;
     margin-right: 0; }
   .large-uncollapse > .column, .large-uncollapse > .columns {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem; }
+    padding-left: 1.875rem;
+    padding-right: 1.875rem; }
   .large-centered {
     float: none;
     margin-left: auto;
@@ -2712,8 +2712,8 @@ table.hover tr:nth-of-type(even):hover {
   float: left; }
   @media screen and (min-width: 40em) {
     .sidebar {
-      padding-left: 0.9375rem;
-      padding-right: 0.9375rem; } }
+      padding-left: 1.875rem;
+      padding-right: 1.875rem; } }
   .sidebar:last-child:not(:first-child) {
     float: right; }
   @media screen and (min-width: 40em) {
@@ -2725,8 +2725,8 @@ table.hover tr:nth-of-type(even):hover {
       margin-top: 1rem; } }
   @media screen and (min-width: 40em) and (min-width: 40em) {
     .sidebar {
-      padding-left: 0.9375rem;
-      padding-right: 0.9375rem; } }
+      padding-left: 1.875rem;
+      padding-right: 1.875rem; } }
   @media screen and (min-width: 40em) {
       .sidebar:last-child:not(:first-child) {
         float: right; } }
@@ -2790,8 +2790,8 @@ table.hover tr:nth-of-type(even):hover {
     float: left; }
     @media screen and (min-width: 40em) {
       #page .main-content {
-        padding-left: 0.9375rem;
-        padding-right: 0.9375rem; } }
+        padding-left: 1.875rem;
+        padding-right: 1.875rem; } }
     #page .main-content:last-child:not(:first-child) {
       float: right; }
     @media screen and (min-width: 40em) {
@@ -2802,8 +2802,8 @@ table.hover tr:nth-of-type(even):hover {
         float: left; } }
   @media screen and (min-width: 40em) and (min-width: 40em) {
     #page .main-content {
-      padding-left: 0.9375rem;
-      padding-right: 0.9375rem; } }
+      padding-left: 1.875rem;
+      padding-right: 1.875rem; } }
     @media screen and (min-width: 40em) {
         #page .main-content:last-child:not(:first-child) {
           float: right; } }
@@ -2812,7 +2812,7 @@ table.hover tr:nth-of-type(even):hover {
   max-width: 75rem;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2rem; }
+  margin-top: 0; }
   #page-sidebar-left::before, #page-sidebar-left::after {
     content: ' ';
     display: table; }
@@ -2825,8 +2825,8 @@ table.hover tr:nth-of-type(even):hover {
     float: left; }
     @media screen and (min-width: 40em) {
       #page-sidebar-left .main-content {
-        padding-left: 0.9375rem;
-        padding-right: 0.9375rem; } }
+        padding-left: 1.875rem;
+        padding-right: 1.875rem; } }
     #page-sidebar-left .main-content:last-child:not(:first-child) {
       float: right; }
     @media screen and (min-width: 40em) {
@@ -2837,8 +2837,8 @@ table.hover tr:nth-of-type(even):hover {
         float: left; } }
   @media screen and (min-width: 40em) and (min-width: 40em) {
     #page-sidebar-left .main-content {
-      padding-left: 0.9375rem;
-      padding-right: 0.9375rem; } }
+      padding-left: 1.875rem;
+      padding-right: 1.875rem; } }
     @media screen and (min-width: 40em) {
         #page-sidebar-left .main-content:last-child:not(:first-child) {
           float: right; } }
@@ -2849,8 +2849,8 @@ table.hover tr:nth-of-type(even):hover {
     float: left; }
     @media screen and (min-width: 40em) {
       #page-sidebar-left .sidebar {
-        padding-left: 0.9375rem;
-        padding-right: 0.9375rem; } }
+        padding-left: 1.875rem;
+        padding-right: 1.875rem; } }
     #page-sidebar-left .sidebar:last-child:not(:first-child) {
       float: right; }
     @media screen and (min-width: 40em) {
@@ -2862,8 +2862,8 @@ table.hover tr:nth-of-type(even):hover {
         margin-top: 1rem; } }
   @media screen and (min-width: 40em) and (min-width: 40em) {
     #page-sidebar-left .sidebar {
-      padding-left: 0.9375rem;
-      padding-right: 0.9375rem; } }
+      padding-left: 1.875rem;
+      padding-right: 1.875rem; } }
     @media screen and (min-width: 40em) {
         #page-sidebar-left .sidebar:last-child:not(:first-child) {
           float: right; } }
@@ -2885,8 +2885,8 @@ table.hover tr:nth-of-type(even):hover {
     float: left; }
     @media screen and (min-width: 40em) {
       #page-full-width .main-content {
-        padding-left: 0.9375rem;
-        padding-right: 0.9375rem; } }
+        padding-left: 1.875rem;
+        padding-right: 1.875rem; } }
     #page-full-width .main-content:last-child:not(:first-child) {
       float: right; }
 
@@ -2907,8 +2907,8 @@ table.hover tr:nth-of-type(even):hover {
     float: left; }
     @media screen and (min-width: 40em) {
       #single-post .main-content {
-        padding-left: 0.9375rem;
-        padding-right: 0.9375rem; } }
+        padding-left: 1.875rem;
+        padding-right: 1.875rem; } }
     #single-post .main-content:last-child:not(:first-child) {
       float: right; }
     @media screen and (min-width: 40em) {
@@ -2919,8 +2919,8 @@ table.hover tr:nth-of-type(even):hover {
         float: left; } }
   @media screen and (min-width: 40em) and (min-width: 40em) {
     #single-post .main-content {
-      padding-left: 0.9375rem;
-      padding-right: 0.9375rem; } }
+      padding-left: 1.875rem;
+      padding-right: 1.875rem; } }
     @media screen and (min-width: 40em) {
         #single-post .main-content:last-child:not(:first-child) {
           float: right; } }
@@ -2934,7 +2934,7 @@ table.hover tr:nth-of-type(even):hover {
   max-width: 75rem;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2rem; }
+  margin-top: 0; }
   #page-concerts::before, #page-concerts::after {
     content: ' ';
     display: table; }
@@ -2947,10 +2947,13 @@ table.hover tr:nth-of-type(even):hover {
     float: left; }
     @media screen and (min-width: 40em) {
       #page-concerts .main-content {
-        padding-left: 0.9375rem;
-        padding-right: 0.9375rem; } }
+        padding-left: 1.875rem;
+        padding-right: 1.875rem; } }
     #page-concerts .main-content:last-child:not(:first-child) {
       float: right; }
+  #page-concerts .column, #page-concerts .columns {
+    padding-left: 1rem;
+    padding-right: 1rem; }
   #page-concerts .concert-wrapper {
     margin-top: 2em; }
   #page-concerts .concert {
@@ -2962,7 +2965,7 @@ table.hover tr:nth-of-type(even):hover {
       margin-bottom: 0.5em; }
 
 #page-tod-home {
-  margin-top: 2rem; }
+  margin-top: 0.4rem; }
   #page-tod-home .main-content {
     padding-left: 0.625rem;
     padding-right: 0.625rem;
@@ -2970,20 +2973,20 @@ table.hover tr:nth-of-type(even):hover {
     float: left; }
     @media screen and (min-width: 40em) {
       #page-tod-home .main-content {
-        padding-left: 0.9375rem;
-        padding-right: 0.9375rem; } }
+        padding-left: 1.875rem;
+        padding-right: 1.875rem; } }
     #page-tod-home .main-content:last-child:not(:first-child) {
       float: right; }
     @media screen and (min-width: 40em) {
       #page-tod-home .main-content {
         padding-left: 0.625rem;
         padding-right: 0.625rem;
-        width: 66.66667%;
+        width: 58.33333%;
         float: left; } }
   @media screen and (min-width: 40em) and (min-width: 40em) {
     #page-tod-home .main-content {
-      padding-left: 0.9375rem;
-      padding-right: 0.9375rem; } }
+      padding-left: 1.875rem;
+      padding-right: 1.875rem; } }
     @media screen and (min-width: 40em) {
         #page-tod-home .main-content:last-child:not(:first-child) {
           float: right; } }
@@ -2994,21 +2997,21 @@ table.hover tr:nth-of-type(even):hover {
     float: left; }
     @media screen and (min-width: 40em) {
       #page-tod-home .sidebar {
-        padding-left: 0.9375rem;
-        padding-right: 0.9375rem; } }
+        padding-left: 1.875rem;
+        padding-right: 1.875rem; } }
     #page-tod-home .sidebar:last-child:not(:first-child) {
       float: right; }
     @media screen and (min-width: 40em) {
       #page-tod-home .sidebar {
         padding-left: 0.625rem;
         padding-right: 0.625rem;
-        width: 33.33333%;
+        width: 41.66667%;
         float: left;
         margin-top: 1rem; } }
   @media screen and (min-width: 40em) and (min-width: 40em) {
     #page-tod-home .sidebar {
-      padding-left: 0.9375rem;
-      padding-right: 0.9375rem; } }
+      padding-left: 1.875rem;
+      padding-right: 1.875rem; } }
     @media screen and (min-width: 40em) {
         #page-tod-home .sidebar:last-child:not(:first-child) {
           float: right; } }
@@ -3020,8 +3023,8 @@ table.hover tr:nth-of-type(even):hover {
       float: left; } }
   @media screen and (min-width: 40em) and (min-width: 40em) {
     #page-tod-home .mc-field-group {
-      padding-left: 0.9375rem;
-      padding-right: 0.9375rem; } }
+      padding-left: 1.875rem;
+      padding-right: 1.875rem; } }
   @media screen and (min-width: 40em) {
       #page-tod-home .mc-field-group:last-child:not(:first-child) {
         float: right; } }
@@ -3033,8 +3036,8 @@ table.hover tr:nth-of-type(even):hover {
       float: left; } }
   @media screen and (min-width: 64em) and (min-width: 40em) {
     #page-tod-home .mc-field-group {
-      padding-left: 0.9375rem;
-      padding-right: 0.9375rem; } }
+      padding-left: 1.875rem;
+      padding-right: 1.875rem; } }
   @media screen and (min-width: 64em) {
       #page-tod-home .mc-field-group:last-child:not(:first-child) {
         float: right; } }
@@ -3098,8 +3101,11 @@ body {
 .top-bar a {
   text-decoration: none; }
 
-.top-bar-socials {
-  padding: 0.4rem 0 0 1rem; }
+.social-icons {
+  float: right; }
+
+.social-container {
+  padding-top: 1rem; }
 
 h1 {
   letter-spacing: -0.06em; }
@@ -3128,7 +3134,7 @@ a.button {
 
 .sidebar .signupform {
   background: #124B6D;
-  padding: 1.6rem 1rem;
+  padding: 1.6rem 0;
   color: #fefefe; }
   .sidebar .signupform h4 {
     color: #fefefe;

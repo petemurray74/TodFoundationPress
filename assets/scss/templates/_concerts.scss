@@ -1,12 +1,17 @@
 #page-concerts {
   @include grid-row();
-      margin-top: 2rem;
+      margin-top: 0;
 
   .main-content {
     @include breakpoint(small) {
       @include grid-column(12);
     }
 
+  }
+  
+  .column {
+  padding-left:1rem;
+  padding-right:1rem;
   }
   
   .concert-wrapper{

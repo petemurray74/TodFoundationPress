@@ -58,12 +58,6 @@
 			</div>
 		</div>
 		<nav id="site-navigation" class="main-navigation top-bar" role="navigation">
-			<div class="top-bar-left">
-				<div class="top-bar-socials">
-				<a href="https://www.facebook.com/todmordenorchestra"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/facebook2.png" width="30"/></a>
-				<a href="https://twitter.com/TodOrchestra"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/twitter2.png" width="30"/></a>
-				</div>
-			</div>
 			<div class="top-bar-right">
 				<?php foundationpress_top_bar_r(); ?>
 
@@ -75,4 +69,14 @@
 	</header>
 
 	<section class="container">
+	<div class="social-container">
+	<div class="row">
+	  <div class="columns large-offset-10 large-2">
+	  <div class="social-icons">
+		<a href="https://www.facebook.com/todmordenorchestra"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/facebook2.png" width="30"/></a>
+		<a href="https://twitter.com/TodOrchestra"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/twitter2.png" width="30"/></a>
+	  </div>
+	  </div>
+	</div>
+	</div>
 		<?php do_action( 'foundationpress_after_header' );

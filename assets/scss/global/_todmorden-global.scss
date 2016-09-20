@@ -40,9 +40,16 @@ body{
 	}
 }
 
-.top-bar-socials {
-padding:0.4rem 0 0 1rem;
+//------------SOCIAL ICONS-------------//
+
+.social-icons {
+float:right;
 }
+
+.social-container {
+padding-top:1rem;
+}
+
 
 
 //------------TYPOGRAPHY-------------//
@@ -91,7 +98,7 @@ text-decoration:none;
 {
 	.signupform{
 	background:$secondary-color;
-	padding:1.6rem 1rem;
+	padding:1.6rem 0;
 	color:$white;
 		h4{
 		color:$white;

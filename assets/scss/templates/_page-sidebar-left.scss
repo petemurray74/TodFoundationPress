@@ -1,6 +1,6 @@
 #page-sidebar-left {
   @include grid-row();
-  margin-top: 2rem;
+  margin-top: 0;
 
   .main-content {
     @include breakpoint(small) {
