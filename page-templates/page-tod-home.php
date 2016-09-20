@@ -19,6 +19,9 @@ get_header(); ?>
 <?php do_action( 'foundationpress_after_content' ); ?>
 
     <div class="sidebar">
+		<div class="concert">
+		<div class="concert-title">
+		<h3>NEXT CONCERT</h3>
         <?php
         //get concert info from concerts page
         $other_page = 8;
@@ -26,6 +29,7 @@ get_header(); ?>
             <?php	$rows = get_field('concert', $other_page ); // get all the rows
                     $first_row = $rows[0]; // get the first row
             ?>
+		</div>	
         <?php 
         if ($first_row['concert_image'])
         {?>
@@ -34,7 +38,7 @@ get_header(); ?>
         <?php
         }
         ?>
-        <div class="concert">
+		<div class="concert-body">
                 <h3><?php echo($first_row['date_and_time']); ?></h3>
                 <div class="pieces"><?php echo($first_row['pieces']); ?></div>
             <?php
@@ -44,7 +48,8 @@ get_header(); ?>
                 <a href="<?php echo($first_row['ticket_link']); ?>" class="button">Buy Tickets</a>  
         </div>
                 <?php endif; ?>
-    </div>
+		</div>
+	</div>
 
 </div>
 <div class="row rowspace">  
