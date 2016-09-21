@@ -24,7 +24,7 @@
   }
   
    .mc-field-group {
-    @include breakpoint(medium) {
+    @include breakpoint(small) {
       @include grid-column(12);
     }
 
@@ -82,6 +82,9 @@
 	
 	.formrow {
 	background-color:$secondary-color;
+		label,h3{
+		color:$white;
+		}
 	}
 	
 	li {
@@ -89,13 +92,17 @@
     line-height: 1.3;
 	}
 	
+	#footer-container {
+	margin: 0 auto;
+	}
+	
 }
 
-.home-signupform {
-	color:$white;
-	padding: 3rem 0;
-label,h3{
-	color:$white;
+.home-signupform1 {
+	padding-top: 2rem;
 	}
+	
+.home-signupform2 {
+	padding-bottom:2rem;
 }
 

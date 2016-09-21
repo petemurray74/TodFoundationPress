@@ -79,11 +79,14 @@ get_header(); ?>
 </div>
 
 <div class="formrow">
-<div class="row home-signupform">  
+<div class="row home-signupform1">  
 <div class="medium-12 columns">
 	<h3>Be the first to hear about concerts</h3>
+</div>
+</div>
+<div class="row home-signupform2">  
 	<!-- Begin MailChimp Signup Form -->
-</div>	
+
 	<div id="mc_embed_signup">
 	<form action="//todmordenorchestra.us13.list-manage.com/subscribe/post?u=bf6c084daf544aa4029cba35c&amp;id=51f10e1f86" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
 	<div id="mc_embed_signup_scroll">
@@ -107,7 +110,7 @@ get_header(); ?>
 	</form>
 	</div>
 	<!--End mc_embed_signup-->
-</div>
+</div>	
 </div>
 </div>
 
