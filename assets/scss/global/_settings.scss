@@ -89,7 +89,8 @@ $grid-row-width: $global-width;
 $grid-column-count: 12;
 $grid-column-responsive-gutter: (
   small: 20px,
-  medium: 60px,
+  medium: 30px,
+  large: 60px,
 );
 $grid-column-align-edge: true;
 $block-grid-max: 8;
@@ -519,7 +520,7 @@ $thumbnail-radius: $global-radius;
 // 33. Title Bar
 // -------------
 
-$titlebar-background: $black;
+$titlebar-background: $primary-color;
 $titlebar-color: $white;
 $titlebar-padding: 0.5rem;
 $titlebar-text-font-weight: bold;
