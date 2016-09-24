@@ -31,6 +31,14 @@
     @include breakpoint(large) {
       @include grid-column(3);
     }
+	}
+	
+	.home-box {
+     margin-top:2rem;
+		@include breakpoint(large) {
+		  margin-top:0;
+		}
+	}
 	
 	input.button{
 	margin-top:1.6rem;
@@ -41,9 +49,8 @@
 	input.button:hover{
 	background-color:#ffffff;
 	}
-  }
+ }
 	
-}
 
     
 .home {

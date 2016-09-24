@@ -53,7 +53,7 @@ get_header(); ?>
 
 </div>
 <div class="row rowspace">  
-<div class="medium-4 columns">
+<div class="medium-4 columns home-box">
 <h3>News</h3>
 <ul>
 <?php
@@ -70,10 +70,10 @@ get_header(); ?>
 ?>
 </ul> 
 </div>
-<div class="medium-4 columns">
+<div class="medium-4 columns home-box">
 <?php the_field('box1'); ?>   
 </div>
-<div class="medium-4 columns">
+<div class="medium-4 columns home-box">
 <?php the_field('box2'); ?>   
 </div>
 </div>
