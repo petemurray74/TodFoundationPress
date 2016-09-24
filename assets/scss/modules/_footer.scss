@@ -22,6 +22,15 @@
             font-weight:bold;
 		}
 		
+		article{
+		margin-top:2rem;
+			@include breakpoint(large) {
+			margin-top:0;
+			}
+		}
+		
+		
+		
 		a{
 		color: $medium-gray;
 		text-decoration: underline;
